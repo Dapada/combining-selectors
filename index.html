@@ -9,11 +9,38 @@
 	</head>
 	<body>
 
-		<!-- Every p that has class="big" -->
+		<!-- 1. Every p that has class="big" -->
 		<p class="big">Element With Class Selector</p>
+		
 		<div class="big">
 			<p>Class Selector</p>
 		</div>
+		<p class="small">Element With Class Selector</p>
+		<!----------------------------------------------->
+
+		<!-- 2. Every p that is a direct child of article -->
+		<article>
+			<p>Child Selector</p>
+		</article>
+
+		<article>
+			<div>
+				<p>NoN Child Selector</p>
+			</div>
+		</article>
+		<!--------------------------------------->
+
+		<!-- 3.Every p that is inside (at any level) of article -->
+		<article>
+			<p>Descendant Selector</p>
+		</article>
+
+		<article>
+			<div>
+				<p>Descendant Selector 2</p>
+			</div>
+		</article>
+
 	
 	</body>
 	</html>
