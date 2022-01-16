@@ -5,10 +5,34 @@ p.big {
 	font-style: oblique;
 }
 
-
-div,p.small {
+p.small {
 	font-style: italic;
 	font-size: 30px;
 	text-align: center;
 	color: purple;
 }
+
+
+article > p {
+	color: blue;
+	font-size: 40px;
+}
+
+
+
+article p {
+	color: yellowgreen;
+}
+
+
+
+.colord p {
+	color: yellow;
+	text-align: right;
+}
+
+
+article > .colored {
+	color: beige;
+}
+
