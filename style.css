@@ -1,4 +1,14 @@
 
 p.big {
 	font-size: 20px;
+	color: orange;
+	font-style: oblique;
+}
+
+
+div,p.small {
+	font-style: italic;
+	font-size: 30px;
+	text-align: center;
+	color: purple;
 }
