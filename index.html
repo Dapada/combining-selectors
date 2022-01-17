@@ -9,16 +9,18 @@
 	</head>
 	<body>
 
-		<!-- 1. Every p that has class="big" -->
+		<!-- 1. Every p that has class="big" (p.big and p.small) -->
 		<p class="big">Element With Class Selector</p>
 		
 		<div class="big">
-			<p>Class Selector</p>
+			<p>NON Class Selector</p>
 		</div>
 		<p class="small">Element With Class Selector</p>
 		<!----------------------------------------------->
 
-		<!-- 2. Every p that is a direct child of article -->
+
+
+		<!-- 2. Every p that is a direct child of article (article > p) -->
 		<article>
 			<p>Child Selector</p>
 		</article>
@@ -30,15 +32,34 @@
 		</article>
 		<!--------------------------------------->
 
-		<!-- 3.Every p that is inside (at any level) of article -->
+
+
+		<!-- 3.Every p that is inside (at any level) of article (article p) -->
 		<article>
 			<p>Descendant Selector</p>
 		</article>
 
 		<article>
 			<div>
-				<p>Descendant Selector 2</p>
+				<p>Descendant Selector</p>
 			</div>
+		</article>
+		<!-------------------------------------------->
+
+
+
+		<!-- 4. Every p that is inside (at any level) an element with class="colored" (.colored p)-->
+		<h6 class="colored">
+			<p>Not Limited to Element Selectors</p>
+		</h6>
+
+		<!---------------------------------------------->
+
+
+
+		<!-- 5. Every element with class="colored" that is a direct child of article element (article > .colored )-->
+		<article>
+			<div class="colored">Not Limited to Element Selectors</div>
 		</article>
 
 	
